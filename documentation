@@ -1,0 +1,14 @@
+Overview
+This project implements a basic user management system using FastAPI, SQLAlchemy, and password hashing. The system allows for user registration, login, and password verification using hashed passwords (never storing plain-text passwords). It is built with the following components:
+
+FastAPI for creating the web API.
+SQLAlchemy for database interaction and ORM (Object-Relational Mapping).
+Pydantic for data validation and serialization
+
+1. Dependencies
+The following Python packages are required:
+
+FastAPI: The web framework for creating the API.
+SQLAlchemy: ORM for interacting with the database.
+psycopg2: PostgreSQL adapter for Python (if using PostgreSQL).
+Pydantic: For data validation and serialization.
